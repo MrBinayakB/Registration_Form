@@ -6,26 +6,29 @@
 </head>
 
 <body style="background-image: linear-gradient( rgb(47, 109, 105), rgb(27, 90, 90), rgb(189, 151, 75))">
+    <h1 id="head1">REGISTRATION !!</h1>
     <div class="reg-form" style="font-family: cursive">
-        <h3 style="font-size: x-large;">REGISTRATION !!</h3>
         <form method="POST">
             <div class="formprop">
-                <input type="text" id="firstname" name="firstname" placeholder="FirstName" size="25" />
+                <input type="text" id="firstname" name="firstname" placeholder="FirstName" size="45" />
             </div>
             <div class="formprop">
-                <input type="text" id="lastname" name="lastname" placeholder="LastName" size="25" />
+                <input type="text" id="lastname" name="lastname" placeholder="LastName" size="45" />
             </div>
             <div class="formprop">
-                <input type="mail" id="email" name="email" placeholder="Email" size="25" />
+                <input type="mail" id="email" name="email" placeholder="Email" size="45" />
             </div>
             <div class="formprop">
-                <input type="password" id="password" name="password" placeholder="Password" size="25" />
+                <input type="password" id="password" name="password" placeholder="Password" size="45" />
             </div>
             <div class="formprop">
-                <input type="tel" id="phonenum" name="phonenum" value="+977 " placeholder="Phone Number" size="25" />
+                <input type="tel" id="phonenum" name="phonenum" value="+977 " size="45" />
             </div>
-            <div class="formprop" id="gender">
-                <label for="Gender" id="gndr">Gender:</span></label>
+            <div class="formprop">
+                <h4>Enter Your DOB:<input type="date" id="DOB" name="DOB" size="35" /></h4>
+            </div>
+            <div id="gender">
+                <label for="Gender" id="gndr"><h3>Gender:</span></label>
                 <label for="male"><input type="radio" name="gender" id="male" checked />Male</label
             >
             <label for="female"
@@ -33,16 +36,15 @@
             >
             <label for="other"
               ><input type="radio" name="gender" id="other" />Other</label
-            >
-          </div>
-          <div class="formprop">
-            <p style="margin-left: 110px;">Upload a picture:<input type="file" name="picture" /></p>
-            </div>
+            ></h3>
+          </div> 
             <div>
-                <input type="submit" id="button" value="Register" />
+                <input type="submit" id="button" value="Register"style="font-family: cursive" />
             </div>
         </form>
     </div>
+    <img id=image " src="https://www.pngarts.com/files/5/Coder-PNG-High-Quality-Image.png " alt=" ">
+
 </body>
 
 </html>

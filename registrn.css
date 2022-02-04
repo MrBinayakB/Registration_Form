@@ -4,21 +4,43 @@
     margin: auto;
     text-align: center;
     position: relative;
-    top: 10%;
+    float: right;
+    margin-right: 10%;
+}
+
+.formprop input {
+    height: 40px;
+    border-radius: 10px;
 }
 
 .formprop {
-    margin: 15px 15px;
-    height: 20px;
-    border-radius: 15%;
+    margin: 8px 0px;
 }
 
 #button {
-    background-color: #4caf50;
+    background-color: #296e69;
     border: none;
-    color: white;
+    color: rgb(94, 236, 224);
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#head1 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    position: relative;
+    margin-top: 5%;
+}
+
+#image {
+    height: 55%;
+    width: 20%;
+    position: relative;
+    float: left;
+    margin-left: 10%;
 }
