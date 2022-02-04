@@ -45,3 +45,8 @@
     float: left;
     margin-left: 10%;
 }
+
+#flag {
+    position: relative;
+    float: right;
+}
