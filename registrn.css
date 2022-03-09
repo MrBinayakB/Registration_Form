@@ -50,3 +50,9 @@
     position: relative;
     float: right;
 }
+
+#error {
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+}
